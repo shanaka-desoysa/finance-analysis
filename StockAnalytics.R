@@ -15,3 +15,5 @@ stockDataJson <- function(symbol) {
     json_file <- fromJSON(quotes, simplify = TRUE)
     json_file
 }
+
+print(stockDataJson(symbol = "AAPL:GOOGL"))
